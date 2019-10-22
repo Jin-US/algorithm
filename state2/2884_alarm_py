@@ -1,0 +1,28 @@
+# index = 1
+# while(index != 0):
+#     H, M = map(int, input().split())
+#     if(0<=H<=23) & (0<=M<=59):
+#         index = 0
+#         M = M-45
+#         if(M<0):
+#             M = M+60
+#             H = H-1
+#             if(H<=0):
+#                 H = H +23
+#
+#         print(H,M)
+#     else:
+#         index = 1
+#         print("error")
+
+H, M = map(int, input().split())
+M = M-45
+if(M<0):
+    H = H-1
+    M = M+60
+    if(H<=0):
+        H = H+24
+
+print(H,M)
+
+

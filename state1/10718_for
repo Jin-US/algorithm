@@ -1,0 +1,3 @@
+i = 0
+for i in range(i,4):
+    print("강한친구 대한육군")
